@@ -1,0 +1,22 @@
+.container {
+    width: 44px;
+    height: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 4px;
+    padding-right: 4px;
+    transition: all 200ms;
+}
+
+.ball {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    transition: all 200ms;
+}
